@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+}
+
+.start{
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 32rem;
+    height: 20rem;
+    background-color: rgb(2, 160, 245);
+    border-radius: 0.6rem;
+    padding: 1rem;
+    color: aliceblue;
+}
+.container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5vh;
+}
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5vh;
+}
+label{
+    padding-right: 10px;
+}
+input {
+    border: none;
+    border: 0.1rem solid;
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+    background-color: rgb(4, 117, 238);
+    color: white;
+    cursor:auto;
+    font-size: 1.2rem;
+    width: 42%;
+  }
+  .button{
+   margin-left: 70%;
+  border: none;
+  border: 0.1rem solid;
+  border-radius: 0.6rem;
+  padding: 0.2rem;
+  background-color: rgb(4, 117, 238);
+  cursor: pointer;
+  }
+  .result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .large-text {
+    font-size: 1.5rem;
+    color: bisque;
+  }
